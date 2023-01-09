@@ -1,0 +1,56 @@
+body {
+    background-color: grey;
+}
+
+.controlBtn {
+    width: 120px;
+    height: 38px;
+    background-color: orange;
+    border: 1.5px solid;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    margin-right: 5px;
+    transition: ease-in-out 0.5s;
+}
+
+.controlBtn:hover {
+    color: orange;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.5em 0.5em -0.4em white;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.controlBtn:active {
+    border-color: green;
+}
+
+#stopwatchContainer {
+    box-shadow: 10 0 10 0;
+    text-align: center;
+    position: relative; 
+    top: 200px;
+    margin: auto;
+    background-color: orange;
+    width: 500px;
+    height: 200px;
+    border: 4px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+#timeLabel {
+    position: relative;
+    top: 20px;
+    font-size: 90px;
+    color: white;
+    font-family: "Digital-7", sans-serif;
+}
+
+#controlsContainer {
+    position: relative;
+    top: 25px;
+}
+
